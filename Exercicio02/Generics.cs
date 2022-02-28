@@ -17,68 +17,76 @@ namespace Exercicio01
             public static List<Alunos> RetornaAlunosList()
             {
                 List<Alunos> alunosList = new List<Alunos>();
-                Alunos aluno = new Alunos();
+                Alunos aluno1 = new Alunos();
+                Alunos aluno2 = new Alunos();
+                Alunos aluno3 = new Alunos();
+                Alunos aluno4 = new Alunos();
+                Alunos aluno5 = new Alunos();
+                Alunos aluno6 = new Alunos();
+                Alunos aluno7 = new Alunos();
+                Alunos aluno8 = new Alunos();
+                Alunos aluno9 = new Alunos();
+                Alunos aluno10 = new Alunos();
 
-                aluno.Idade = 10;
-                aluno.Nome = "José";
-                aluno.Codigo = "A060001";
+                aluno1.Idade = 10;
+                aluno1.Nome = "José";
+                aluno1.Codigo = "A060001";
 
-                alunosList.Add(aluno);
+                alunosList.Add(aluno1);
 
-                aluno.Idade = 11;
-                aluno.Nome = "Rodrigo";
-                aluno.Codigo = "A060002";
+                aluno2.Idade = 11;
+                aluno2.Nome = "Rodrigo";
+                aluno2.Codigo = "A060002";
 
-                alunosList.Add(aluno);
+                alunosList.Add(aluno2);
 
-                aluno.Idade = 13;
-                aluno.Nome = "Larissa";
-                aluno.Codigo = "A060003";
+                aluno3.Idade = 13;
+                aluno3.Nome = "Larissa";
+                aluno3.Codigo = "A060003";
 
-                alunosList.Add(aluno);
+                alunosList.Add(aluno3);
 
-                aluno.Idade = 12;
-                aluno.Nome = "Guilherme";
-                aluno.Codigo = "A060004";
+                aluno4.Idade = 12;
+                aluno4.Nome = "Guilherme";
+                aluno4.Codigo = "A060004";
 
-                alunosList.Add(aluno);
+                alunosList.Add(aluno4);
 
-                aluno.Idade = 11;
-                aluno.Nome = "Antonio";
-                aluno.Codigo = "A060005";
+                aluno5.Idade = 11;
+                aluno5.Nome = "Antonio";
+                aluno5.Codigo = "A060005";
 
-                alunosList.Add(aluno);
+                alunosList.Add(aluno5);
 
-                aluno.Idade = 10;
-                aluno.Nome = "Matheus";
-                aluno.Codigo = "A060006";
+                aluno6.Idade = 10;
+                aluno6.Nome = "Matheus";
+                aluno6.Codigo = "A060006";
 
-                alunosList.Add(aluno);
+                alunosList.Add(aluno6);
 
-                aluno.Idade = 08;
-                aluno.Nome = "Elaine";
-                aluno.Codigo = "A060007";
+                aluno7.Idade = 08;
+                aluno7.Nome = "Elaine";
+                aluno7.Codigo = "A060007";
 
-                alunosList.Add(aluno);
+                alunosList.Add(aluno7);
 
-                aluno.Idade = 10;
-                aluno.Nome = "Ana";
-                aluno.Codigo = "A060008";
+                aluno8.Idade = 10;
+                aluno8.Nome = "Ana";
+                aluno8.Codigo = "A060008";
 
-                alunosList.Add(aluno);
+                alunosList.Add(aluno8);
 
-                aluno.Idade = 11;
-                aluno.Nome = "Josefina";
-                aluno.Codigo = "A060009";
+                aluno9.Idade = 11;
+                aluno9.Nome = "Josefina";
+                aluno9.Codigo = "A060009";
 
-                alunosList.Add(aluno);
+                alunosList.Add(aluno9);
 
-                aluno.Idade = 12;
-                aluno.Nome = "Maria";
-                aluno.Codigo = "A060010";
+                aluno10.Idade = 12;
+                aluno10.Nome = "Maria";
+                aluno10.Codigo = "A060010";
 
-                alunosList.Add(aluno);
-
+                alunosList.Add(aluno10);
                 return alunosList;
             }
 
