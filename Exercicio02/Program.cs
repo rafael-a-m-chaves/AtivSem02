@@ -21,6 +21,7 @@ namespace Exercicio01
             {
                 Console.WriteLine("A pesquisa não retornou resultados");
             }
+            Console.ReadKey();
         }
     }
 }
