@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WebApplication_opcional_.Entites;
+using WebApplication.DOMAIN.Entites;
 
-namespace WebApplication_opcional_.IRepository
+
+namespace WebApplication.INFRA.IRepository
 {
     public interface IPedidoRepository : IBaseRepository<Pedido>
     {

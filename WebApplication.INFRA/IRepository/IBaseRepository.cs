@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace WebApplication_opcional_.IRepository
+namespace WebApplication.INFRA.IRepository
 {
     public interface IBaseRepository<T> where T : class
     {

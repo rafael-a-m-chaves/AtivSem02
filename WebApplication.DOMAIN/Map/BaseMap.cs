@@ -3,9 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WebApplication_opcional_.Entites;
+using WebApplication.DOMAIN.Entites;
 
-namespace WebApplication_opcional_.Map
+namespace WebApplication.INFRA.Map
 {
     public abstract class BaseMap<T> where T : BaseEntity
     {

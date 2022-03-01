@@ -4,10 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
-using WebApplication_opcional_.Entites;
-using WebApplication_opcional_.IRepository;
+using WebApplication.DOMAIN.Entites;
+using WebApplication.INFRA.IRepository;
 
-namespace WebApplication_opcional_.Repository
+namespace WebApplication.INFRA.Repository
 {
     public abstract class BaseRepository<T> : IDisposable, IBaseRepository<T> where T : class
     {

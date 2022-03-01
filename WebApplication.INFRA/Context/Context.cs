@@ -4,10 +4,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WebApplication_opcional_.Entites;
-using WebApplication_opcional_.Map;
+using WebApplication.DOMAIN.Entites;
+using WebApplication.INFRA.Map;
 
-namespace WebApplication_opcional_.Context
+namespace WebApplication.INFRA.Context
 {
     public class Context : IdentityDbContext
     {

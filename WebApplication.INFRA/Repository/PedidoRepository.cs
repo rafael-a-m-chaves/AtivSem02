@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WebApplication_opcional_.Entites;
-using WebApplication_opcional_.IRepository;
+using WebApplication.DOMAIN.Entites;
+using WebApplication.INFRA.IRepository;
 
-namespace WebApplication_opcional_.Repository
+namespace WebApplication.INFRA.Repository
 {
     public class PedidoRepository : BaseRepository<Pedido>, IPedidoRepository
     {
@@ -16,6 +16,6 @@ namespace WebApplication_opcional_.Repository
             context = ctx;
         }
 
-    {
+    
     }
 }
